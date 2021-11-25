@@ -1,10 +1,10 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import { Nav, Navbar } from 'react-bootstrap';
+import Navbar from './components/NavBar/NavBar';
 
 function App() {
   return (
     <>
+      <Navbar />
       <h1>Hello World</h1>
     </>
   );
