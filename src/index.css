@@ -1,0 +1,22 @@
+.home {
+  background: url("../src/assets/los-angeles.png") no-repeat center;
+}
+
+.about {
+  background: url("../src/assets/img-2.jpg") no-repeat center;
+}
+
+.projects {
+  background: url("../src/assets/img-3.jpg") no-repeat center;
+}
+
+.home,
+.about,
+.projects {
+  display: flex;
+  height: 88.6vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+}
