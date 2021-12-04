@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 .navbar {
   padding: 1rem 2rem 1rem;
 }
@@ -12,4 +20,12 @@
 
 .options {
   margin: 0px 1rem 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .options,
+  .options-sp {
+    margin: 0;
+    text-align: center;
+  }
 }

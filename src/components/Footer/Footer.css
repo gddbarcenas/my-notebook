@@ -7,11 +7,13 @@ a {
   display: grid;
   grid-template-columns: auto auto;
   background-color: rgba(33, 37, 41, 1);
-  padding: 2rem;
   color: rgba(255, 255, 255, 0.55);
+  padding: 2rem;
+  font-size: 0.75rem;
 }
 
 .left-content {
+  text-align: left;
   display: grid;
   grid-auto-flow: column;
   width: fit-content;
@@ -20,5 +22,19 @@ a {
 
 .right-content {
   text-align: right;
+  padding: 0px 0.5rem 0px;
   color: rgba(255, 255, 255, 0.55);
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
+  }
+
+  .left-content {
+    grid-auto-flow: row;
+    justify-items: center;
+  }
 }

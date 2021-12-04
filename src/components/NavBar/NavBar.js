@@ -17,7 +17,8 @@ function NavBar() {
 						<Nav className="ms-auto drop">
 							<Nav.Link as={Link} to='/' className="options">Home</Nav.Link>
 							<Nav.Link as={Link} to='/projects' className="options">Projects</Nav.Link>
-							<Nav.Link as={Link} to='/about'>About Me</Nav.Link>
+							<Nav.Link as={Link} to='/about'
+							className="options-sp">About Me</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
