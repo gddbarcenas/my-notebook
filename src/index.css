@@ -14,9 +14,47 @@
 .about,
 .projects {
   display: flex;
-  height: 88.6vh;
+  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
   color: white;
+  font-weight: bolder;
+  margin-bottom: 0 !important;
+}
+
+.projectList {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-evenly;
+  list-style-type: none;
+  padding: 5rem 0px 5rem;
+  gap: 3rem;
+}
+
+.project {
+  width: 60vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.project-title {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.cards,
+.cards:hover {
+  text-decoration: none;
+  color: black;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 import { 
   BrowserRouter as Router, Routes, 
   Route 
@@ -13,12 +14,15 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/projects' element={<Projects/>} />
-          <Route path='/about' element={<About/>} />
-        </Routes>
+        <div className="wrapper">
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/projects' element={<Projects/>} />
+            <Route path='/about' element={<About/>} />
+          </Routes>
+          <Footer/>
+        </div>
       </Router>
     </>
   );

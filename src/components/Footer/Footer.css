@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgba(33, 37, 41, 1);
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.left-content {
+  display: grid;
+  grid-auto-flow: column;
+  width: fit-content;
+  gap: 1rem;
+}
+
+.right-content {
+  text-align: right;
+  color: rgba(255, 255, 255, 0.55);
+}
