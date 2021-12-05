@@ -61,9 +61,10 @@ body {
 }
 
 .content {
-  margin: 0px 5rem 5rem;
+  padding: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-content: center;
 }
 
 .front-end,
@@ -125,6 +126,10 @@ img {
 @media only screen and (max-width: 800px) {
   .content {
     grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+  .introduction {
+    margin: 2rem;
   }
 }
 
